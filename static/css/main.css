@@ -1678,11 +1678,11 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #ef5455 !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #ef5455 !important;
 		}
 
 	strong, b {
@@ -2856,27 +2856,27 @@
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #ef5455;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #ef5455;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #ef5455;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #ef5455;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #ef5455;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #ef5455;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3139,7 +3139,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #2B3252;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3617,7 +3617,7 @@
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #2B3252;
 	}
 
 		#main > * {
@@ -3986,4 +3986,4 @@
 		}
 
 		::selection {
-			background: #b365b6;
+			background: #ef5455;
