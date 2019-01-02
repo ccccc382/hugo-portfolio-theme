@@ -1834,7 +1834,7 @@
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				/*background-color: #ffffff;*/
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -3984,3 +3984,6 @@
 			opacity: 1;
 			visibility: visible;
 		}
+
+		::selection {
+			background: #b365b6;
