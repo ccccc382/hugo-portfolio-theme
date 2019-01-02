@@ -19,15 +19,16 @@
 	{{ "<!-- Custom Fonts -->" | safeHTML }}
 	<link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
 
-	{{ with .Site.Params.favicon }}
-	<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/favicon-16x16.png">
-	<link rel="manifest" href="{{ .Site.BaseURL }}/site.webmanifest">
-	<link rel="mask-icon" href="{{ .Site.BaseURL }}/safari-pinned-tab.svg" color="#2b3252">
-	<meta name="msapplication-TileColor" content="#2b3252">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="{{ .Site.BaseURL }}/img/manifest.json">
+	<link rel="mask-icon" href="{{ .Site.BaseURL }}/img/safari-pinned-tab.svg" color="#6aae7a">
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#6aae7a">
+	<meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}/img/mstile-144x144.png">
+	<meta name="msapplication-config" content="{{ .Site.BaseURL }}/img/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	{{ end }}
 
 	{{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
 	{{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
